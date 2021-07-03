@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&amp;display=swap');
+
+@media screen and (prefers-reduced-motion: no-preference)
+{
+	html
+	{
+		scroll-behavior: smooth;
+		overflow-x: hidden;
+	}
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background: #e7e7e7;
+}
+
+ul li
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.text-red
+{
+	color: #9e0704;
+}
+
+.text-brown
+{
+	color: #1e020b;
+}
+
+.text-pink
+{
+	color: #d73265;
+}
+
+.bg-brown
+{
+	background: #1e020b;
+}
+
+.bg-black
+{
+	background: #000;
+}
+
+.bg-e7e7e7
+{
+	background: #e7e7e7;
+}
+
+.underline
+{
+	border-left: 5px solid #d73265;
+	margin-right: 5px;
+}
+
+.title
+{
+	font-family: 'Akaya Telivigala', cursive;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.subtitle
+{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
+	line-height: 1.8;
+}
+
+.nav-link
+{
+	font-family: 'Yanone Kaffeesatz', sans-serif !important;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000 !important;
+}
+
+.navbar.scrolled
+{
+	box-shadow: 0 10px 6px -6px #d73265;
+}
+
+#welcome
+{
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/services/deep-tissue.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	height: 100vh;
+	width: 100%;
+}
+
+.welcome-text
+{
+	margin-top: 200px;
+	text-align: center;
+	color: #fff;
+}
+
+.welcome-text h4
+{
+	font-family: 'Dancing Script', cursive;
+	letter-spacing: 3px;
+	font-size: 30px;
+}
+
+.welcome-text h1
+{
+	font-family: 'Akaya Telivigala', cursive;
+	margin-top: 25px;
+	font-weight: bold;
+	font-size: 55px;
+	text-transform: uppercase;
+	color: #d73265;
+}
+
+.welcome-text p
+{
+	font-family: 'Roboto Mono', monospace;
+	color: #fff;
+	margin-top: 25px;
+	font-size: 18px;
+	line-height: 1.8;
+}
+
+.welcome-btn
+{
+	background: #d73265;
+	font-size: 15px;
+	color: #fff;
+	margin-top: 25px;
+	padding: 10px 15px;
+	border-radius: 25px;
+	text-transform: uppercase;
+}
+
+.welcome-btn:hover
+{
+	text-decoration: none;
+	background: #d61c53;
+	color: #fff;
+}
+
+.card-title
+{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.service-custom
+{
+	overflow: hidden;
+	box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.service-custom-img
+{
+	height: 200px;
+	min-height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-color: inherit;
+}
+
+.service-custom-img::after
+{
+	position: absolute;
+	content: '';
+	top: 161px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-top-width: 40px;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 545px;
+	border-left-width: calc(575px - 5vw);
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: inherit;
+}
+
+.service-custom-avatar img
+{
+	border-radius: 50%;
+	box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+	position: absolute;
+	top: 100px;
+	left: 1.25rem;
+	width: 100px;
+	height: 100px;
+}
+
+.safety-item
+{
+	height: 300px;
+	padding: 10px;
+	transition: all 0.8s ease;
+}
+
+.safety-item:hover
+{
+	box-shadow:0px 0px 10px #000;
+	cursor: pointer;
+	border-radius: 25px;
+	background: #fff;
+	transition: all 0.8s ease;
+}
+
+.bg-testimonial
+{
+	background-image: url(../images/services/deep-tissue.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+	background-attachment: fixed;
+}
+
+#slider
+{
+	margin-top: 15px;
+}
+
+.testimonial
+{
+	text-align: center;
+	padding: 40px;
+	color: #000;
+	border-radius: 25px;
+	background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.client-image
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.client-image img
+{
+	width: 100%;
+}
+
+.testimonial h5
+{
+	color: #d73265;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.testimonial .client-address
+{
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px white, 0 0 2px white, 0 0 2px white;
+	line-height: 2px;
+	color: #1e020b;
+}
+
+.testimonial .testimonial-description
+{
+	color: #fff;
+}
+
+.testimonial .icons
+{
+	color: #DF9513;
+}
